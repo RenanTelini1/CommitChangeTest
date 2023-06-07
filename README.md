@@ -14,10 +14,4 @@
 
 #### Quarto Commit Adicionado - 07/07/23 - 14:01
 
-<<<<<<< HEAD
-#### Quarto COMMIT FOI ALTERADO 7/7/23 - 15:56 - o COMMIT com o ID = 40d6f0a
-=======
-#### Terceiro COMMIT FOI ALTERADO 7/7/23 - 15:05
-
-#### Quinto Commit também foi alterado 7/7/23 - 15:13
->>>>>>> ca5e3ab (Commit 5 tbm foi alterado - 15:11)
+#### Quarto COMMIT FOI ALTERADO 7/7/23 - 16:15 - o COMMIT com o ID = 85eb874
