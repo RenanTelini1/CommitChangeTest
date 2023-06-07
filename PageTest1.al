@@ -48,6 +48,17 @@ page 50104 PageTestCommit
                     Message(lcText000, ' - 3° COMMIT FOI ALTERADO');
                 end;
             }
+            action(Test2)
+            {
+                ApplicationArea = All;
+
+                trigger OnAction()
+                var
+                    lcText000: TextConst ENU = 'Teste Alteração de Commit no GitHub';
+                begin
+                    Message(lcText000, ' - 5° Commit foi alterado');
+                end;
+            }
         }
     }
 }
