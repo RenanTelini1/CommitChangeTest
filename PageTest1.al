@@ -45,7 +45,7 @@ page 50104 PageTestCommit
                 var
                     lcText000: TextConst ENU = 'Teste Alteração de Commit no GitHub';
                 begin
-                    Message(lcText000, ' - Adicionando mais um Commit');
+                    Message(lcText000, ' - 3° COMMIT FOI ALTERADO');
                 end;
             }
         }
