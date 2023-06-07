@@ -33,7 +33,19 @@ page 50104 PageTestCommit
                 var
                     lcText000: TextConst ENU = 'Teste Alteração de Commit no GitHub';
                 begin
-                    Message(lcText000);
+                    Message(lcText000, ' - 3° COMMIT ALTERADO - 7/6/23 - 16:42');
+                end;
+            }
+
+            action(Test1)
+            {
+                ApplicationArea = All;
+
+                trigger OnAction()
+                var
+                    lcText000: TextConst ENU = 'Teste Alteração de Commit no GitHub';
+                begin
+                    Message(lcText000, ' - Adicionando mais um Commit');
                 end;
             }
         }
